@@ -16,7 +16,9 @@ A Flutter application that fetches users from a public API and displays them in 
 - Search users by name
 - Dark / Light mode toggle
 - Provider state management
+- Icon Launcher
 - Clean folder structure
+
 
 ## Packages Used
 - http
