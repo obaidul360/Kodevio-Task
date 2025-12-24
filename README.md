@@ -17,12 +17,14 @@ A Flutter application that fetches users from a public API and displays them in 
 - Dark / Light mode toggle
 - Provider state management
 - Icon Launcher
+- First Splash Screen
 - Clean folder structure
 
 
 ## Packages Used
 - http
 - provider
+- Icon Launcher
 
 ## API
 https://jsonplaceholder.typicode.com/users
