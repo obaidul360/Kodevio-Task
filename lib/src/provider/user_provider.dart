@@ -29,8 +29,7 @@ class UserProvider extends ChangeNotifier {
 
   void search(String query) {
     filteredUsers = _users
-        .where((u) =>
-        u.name.toLowerCase().contains(query.toLowerCase()))
+        .where((u) => u.name.toLowerCase().contains(query.toLowerCase()))
         .toList();
     notifyListeners();
   }

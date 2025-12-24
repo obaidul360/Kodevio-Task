@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../screen/user_list_screen.dart';
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -16,9 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
     });
     Navigator.pushReplacement(
       context,
-      MaterialPageRoute(
-        builder: (context) => UserListScreen(),
-      ),
+      MaterialPageRoute(builder: (context) => UserListScreen()),
     );
   }
 
@@ -35,7 +34,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("assets/notes_logo.png"),
+            image: AssetImage("image/splash_image.png"),
             fit: BoxFit.fill,
           ),
         ),

@@ -29,7 +29,7 @@ class User {
       website: json['website'],
       company: json['company']['name'],
       address:
-      "${json['address']['street']}, ${json['address']['city']}, ${json['address']['zipcode']}",
+          "${json['address']['street']}, ${json['address']['city']}, ${json['address']['zipcode']}",
     );
   }
 }
